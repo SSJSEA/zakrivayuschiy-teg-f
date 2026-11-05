@@ -1,1 +1,1 @@
-https://github.com/SSJSEA/zakrivayuschiy-teg-f
+https://github.com/SSJSEA/zakryvayuschiy-teg-f
