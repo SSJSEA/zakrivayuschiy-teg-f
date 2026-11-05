@@ -2,7 +2,7 @@
 .page {
   font-family: var(--font-main), sans-serif;
   font-variation-settings: "wght" var(--card-text-weight);
-  min-inline-size: 320px;
+  min-width: 375px;
   min-block-size: 100dvb;
   position: relative;
   isolation: isolate;
@@ -39,6 +39,7 @@
   line-height: 1;
   text-decoration: none;
   color: inherit;
+  text-transform: uppercase;
 }
 
 .header__title {
@@ -228,16 +229,6 @@
   block-size: 38px;
 }
 
-.like-icon .main-body,
-.like-icon .core {
-  fill: transparent;
-}
-
-.like-icon .sparks {
-  opacity: 0;
-}
-
-.like-icon:hover .core,
 .like-icon:hover .main-body {
   fill: #000;
 }
